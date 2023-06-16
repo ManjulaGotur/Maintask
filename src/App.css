@@ -1,33 +1,50 @@
 .container {
   text-align: center;
+  background-color: rgb(212, 207, 207);
+  padding: 50px;
+  max-width: fit-content;
+  margin: 30px auto;
+
 }
 
 .circle {
-  width: 150px;
-  height: 150px;
+  width: 250px;
+  height: 250px;
   border-radius: 50%;
-  display: flex;
+  display:grid;
   justify-content: center;
-  align-items: center;
-  background-color: blue;
+  align-items:center;
   margin: 0 auto;
   margin-top: 20px;
 }
 
 .circle button {
-  font-size: 24px;
   background-color: transparent;
   border: none;
   color: white;
-  cursor: pointer;
+}
+#circle-counter{
+  font-size: 12vb;
+  padding-top:50px;
+}
+#circle-text{
+padding-bottom: 30px;
+cursor: pointer;
 }
 
 .circle button:focus {
   outline: none;
 }
 
+.bt-color{
+  margin-top: 30px;
+  padding: 10px;
+  border-radius: 10px;
+  cursor:pointer;
+}
+
 .component {
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 .increment-button {
